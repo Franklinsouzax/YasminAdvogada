@@ -13,6 +13,7 @@ p{
     font-size: 2.8vw;
 }
 :root{
+    --azul-logo:#10416c;
     --fundo-azul:#112434;
     --font-azul:#B1DCF6;
     --dourado:#DB821D;
@@ -97,7 +98,8 @@ p{
 
 .area-topo h2{
     text-align: center;
-    color: var(--font-azul);
+    color:var(--font-azul);
+    text-shadow: 1px 8px 5px rgba(0, 0, 0, 0.596);
     margin: 0;
     padding:4% 0;
     font-size: 3.9vw;
@@ -390,4 +392,34 @@ footer span{
     text-align: center;
     padding: 3% 1%;
     font-weight: 400;
+}
+
+/* Estilização para a nova seção de consultoria */
+.consultoria {
+    padding: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-top: 10px solid #112434;
+    border-bottom: 10px solid #112434; */
+}
+
+.consultoria .area-consultoria {
+   width: 80%;
+}
+
+.consultoria h2 {
+    font-size: 4.8vw;
+    margin-bottom: 5%;
+    color: var(--fundo-azul);
+    font-weight: 800; 
+}
+.consultoria, h2 strong{
+    color: var(--fundo-azul);
+}
+.consultoria p {
+    font-size: 3.8vw;
+    margin: 3.5% 0;
 }
